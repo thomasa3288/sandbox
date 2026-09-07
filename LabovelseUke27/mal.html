@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mal HTML</title>
+</head>
+<body>
+    <header> 
+        <!-- Header navigasjons meny -->
+        <!-- Definerer div taggen som en header -->
+        <div class="header">
+            <!--Sett inn bilde her-->
+            <input type="image" src="logo.jpeg" alt="Logo" width="20" height="20">
+            <!-- Navigasjons lenke 1 -->
+            <a href="mal.html">Mal</a>
+            <!-- Navigasjons lenke 2 -->
+            <a href="ovelse.html">Øvelse</a>
+            <!-- Navigasjons lenke 3 -->
+            <a href="index.html">Index</a>
+        </div>
+    </header>
+
+    <!-- Lager en border for å separere fra resten av siden -->
+    <div style="border: 1px solid black;">
+       <h1>Dette er en mal for HTML</h1>
+       <a href="#">Eksempel 1</a>
+       <a href="#">Eksempel 2</a>
+       <a href="#">Eksempel 3</a>
+       <a href="#">Eksempel 4</a>
+       <a href="#">Eksempel 5</a>
+    </div>
+
+ <!-- Lager en border for å separere fra resten av siden -->
+    <div style="border: 1px solid black;">
+        <h1>Eksempel på overskrift</h1>
+        <article>
+            <h2>Eksempel header 1</h2>
+            <h2>Eksempel header 2</h2>
+        </article>
+    </div>
+
+ <!-- Lager en border for å separere fra resten av siden -->
+    <div style="border: 1px solid black;">
+       <footer>
+            <h1>Eksempel footer</h1>
+            <ul>
+               <p>Eksempel footer tekst</p>
+               <p>Eksempel footer tekst</p>
+               <p>Eksempel footer tekst</p>
+               <p>Eksempel footer tekst</p>
+               <form>
+                <fieldset>
+                    <!-- Første skrive felt -->
+                    <legend>Registrer deg her</legend>
+                    <label for="label1">
+					Eksempel:
+					<input type="text" id="label1" name="label1" value="" placeholder="Eksempel" />
+                    <!-- Andre skrive felt -->
+                    <input type="text" id="label2" name="label2" value="" placeholder="Eksempel 2" />
+                    <!-- Lager en dropdown meny -->
+                    <label for="label3">Eksempel 3 dropdown:</label>
+                    <select id="label3" name="label3">
+                        <option value="valg1">Valg 1</option>
+                        <option value="valg2">Valg 2</option>
+                        <option value="valg3">Valg 3</option>
+                    </select>
+
+                    <!-- Skrivefelt kommentar -->
+                    <label for="kommentarEksempel">Eksempel 4 kommentar:</label>
+                    <input type="text" id="kommentarEksempel" value="" placeholder="Eksempel 4 kommentar" />
+                    
+                    <!-- Send inn knapp -->
+                    <label for="label2">Eksempel 5:</label>
+                    <input type="submit" value="Send inn" />
+
+                </fieldset>
+               </form>
+            </ul>
+        </footer>
+    </div>
+</body>
