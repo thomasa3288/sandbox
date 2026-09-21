@@ -1,0 +1,65 @@
+/*Kommentar i CSS*/
+/*Globale innstillinger*/
+
+*{
+    box-sizing: border-box;
+    border-width: 1px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: blueviolet;
+    color: #222831;
+}
+
+/*Header og navigasjon*/
+header {
+    background-color: #1e3a5f;
+    padding: 1rem 2rem 3rem 4rem;
+    color:#ffff;
+    
+    /*Flere alternativer*/
+    /*padding-top: ;
+    padding-bottom;
+    padding-right:;
+    padding-left:;*/
+    span {
+    font-size: 1,5rem;
+    font-weight: bold;
+    letter-spacing: normal;
+    }
+}
+
+    nav{
+        ul {
+            list-style: none;  
+            }
+        li{
+            display: inline-block;
+            margin-right: 20px;
+                a {
+                    color: white;    
+                    text-decoration: none;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        } 
+
+    
+
+
+
+    /*Flyttet til inni header taggen*/
+/*
+header span {
+    font-size: 1,5rem;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+*/
+
+/*Hovedinnhold*/
